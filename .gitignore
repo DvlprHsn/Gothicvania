@@ -1,0 +1,113 @@
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ---------------------------------------------------------------------------
+# PyInstaller
+# ---------------------------------------------------------------------------
+# Build artifacts (regenerated on every build)
+build/
+dist/
+*.manifest
+*.spec
+
+# PyInstaller onefile temp dumps
+*.pkg
+*.toc
+
+# Keep the .spec file if you want to rebuild with the same config —
+# uncomment the line above if you'd rather version it.
+
+# ---------------------------------------------------------------------------
+# Virtual environments
+# ---------------------------------------------------------------------------
+venv/
+env/
+ENV/
+.venv/
+.conda/
+pythonenv*
+
+# ---------------------------------------------------------------------------
+# Testing / tooling caches
+# ---------------------------------------------------------------------------
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.cover
+.hypothesis/
+pytype/
+
+# ---------------------------------------------------------------------------
+# Game-specific — local saves, logs, screenshots
+# ---------------------------------------------------------------------------
+saves/
+logs/
+*.log
+screenshot*.png
+screenshot*.bmp
+recording*.mp4
+recording*.gif
+
+# Local-only asset overrides (don't commit experimental files by accident)
+data/local_*
+data/*.tmp
+data/*.bak
+data/*~
+
+# ---------------------------------------------------------------------------
+# OS junk
+# ---------------------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ---------------------------------------------------------------------------
+# Editor / IDE
+# ---------------------------------------------------------------------------
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace

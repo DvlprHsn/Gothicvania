@@ -1,0 +1,975 @@
+{
+  "project": "Gothicvania ",
+  "exportedAt": "2026-09-17T13:24:13.236Z",
+  "animations": [
+    {
+      "name": "Crouch Kick",
+      "frames": [
+        {
+          "texture": "atlas.png",
+          "sourceRect": {
+            "x": 16,
+            "y": 276,
+            "w": 24,
+            "h": 24
+          },
+          "duration_ms": 100,
+          "pivot": {
+            "x": 12,
+            "y": 24
+          },
+          "hitboxes": [],
+          "hurtboxes": [
+            {
+              "x": 8,
+              "y": 0,
+              "w": 16,
+              "h": 24
+            }
+          ]
+        },
+        {
+          "texture": "atlas.png",
+          "sourceRect": {
+            "x": 98,
+            "y": 275,
+            "w": 55,
+            "h": 25
+          },
+          "duration_ms": 100,
+          "pivot": {
+            "x": 12,
+            "y": 25
+          },
+          "hitboxes": [
+            {
+              "x": 28,
+              "y": 3,
+              "w": 27,
+              "h": 15
+            }
+          ],
+          "hurtboxes": [
+            {
+              "x": 9,
+              "y": 3,
+              "w": 14,
+              "h": 22
+            }
+          ]
+        },
+        {
+          "texture": "atlas.png",
+          "sourceRect": {
+            "x": 180,
+            "y": 275,
+            "w": 61,
+            "h": 25
+          },
+          "duration_ms": 100,
+          "pivot": {
+            "x": 12,
+            "y": 25
+          },
+          "hitboxes": [
+            {
+              "x": 28,
+              "y": 0,
+              "w": 33,
+              "h": 17
+            }
+          ],
+          "hurtboxes": [
+            {
+              "x": 11,
+              "y": 3,
+              "w": 13,
+              "h": 22
+            }
+          ]
+        },
+        {
+          "texture": "atlas.png",
+          "sourceRect": {
+            "x": 262,
+            "y": 271,
+            "w": 64,
+            "h": 29
+          },
+          "duration_ms": 100,
+          "pivot": {
+            "x": 12,
+            "y": 29
+          },
+          "hitboxes": [
+            {
+              "x": 28,
+              "y": 7,
+              "w": 18,
+              "h": 11
+            }
+          ],
+          "hurtboxes": [
+            {
+              "x": 11,
+              "y": 7,
+              "w": 13,
+              "h": 22
+            }
+          ]
+        },
+        {
+          "texture": "atlas.png",
+          "sourceRect": {
+            "x": 344,
+            "y": 275,
+            "w": 46,
+            "h": 25
+          },
+          "duration_ms": 100,
+          "pivot": {
+            "x": 12,
+            "y": 25
+          },
+          "hitboxes": [
+            {
+              "x": 28,
+              "y": 5,
+              "w": 18,
+              "h": 13
+            }
+          ],
+          "hurtboxes": [
+            {
+              "x": 11,
+              "y": 3,
+              "w": 13,
+              "h": 22
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Walk",
+      "frames": [
+        {
+          "texture": "atlas.png",
+          "sourceRect": {
+            "x": 30,
+            "y": 555,
+            "w": 17,
+            "h": 45
+          },
+          "duration_ms": 100,
+          "pivot": {
+            "x": 8,
+            "y": 45
+          },
+          "hitboxes": [],
+          "hurtboxes": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 17,
+              "h": 45
+            }
+          ]
+        },
+        {
+          "texture": "atlas.png",
+          "sourceRect": {
+            "x": 116,
+            "y": 554,
+            "w": 11,
+            "h": 46
+          },
+          "duration_ms": 100,
+          "pivot": {
+            "x": 5,
+            "y": 46
+          },
+          "hitboxes": [],
+          "hurtboxes": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 11,
+              "h": 46
+            }
+          ]
+        },
+        {
+          "texture": "atlas.png",
+          "sourceRect": {
+            "x": 190,
+            "y": 556,
+            "w": 27,
+            "h": 44
+          },
+          "duration_ms": 100,
+          "pivot": {
+            "x": 13,
+            "y": 44
+          },
+          "hitboxes": [],
+          "hurtboxes": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 27,
+              "h": 44
+            }
+          ]
+        },
+        {
+          "texture": "atlas.png",
+          "sourceRect": {
+            "x": 277,
+            "y": 555,
+            "w": 14,
+            "h": 45
+          },
+          "duration_ms": 100,
+          "pivot": {
+            "x": 7,
+            "y": 45
+          },
+          "hitboxes": [],
+          "hurtboxes": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 14,
+              "h": 45
+            }
+          ]
+        },
+        {
+          "texture": "atlas.png",
+          "sourceRect": {
+            "x": 361,
+            "y": 554,
+            "w": 11,
+            "h": 46
+          },
+          "duration_ms": 100,
+          "pivot": {
+            "x": 5,
+            "y": 46
+          },
+          "hitboxes": [],
+          "hurtboxes": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 11,
+              "h": 46
+            }
+          ]
+        },
+        {
+          "texture": "atlas.png",
+          "sourceRect": {
+            "x": 436,
+            "y": 556,
+            "w": 27,
+            "h": 44
+          },
+          "duration_ms": 100,
+          "pivot": {
+            "x": 13,
+            "y": 44
+          },
+          "hitboxes": [],
+          "hurtboxes": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 27,
+              "h": 44
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kick",
+      "frames": [
+        {
+          "texture": "atlas.png",
+          "sourceRect": {
+            "x": 27,
+            "y": 319,
+            "w": 30,
+            "h": 42
+          },
+          "duration_ms": 100,
+          "pivot": {
+            "x": 13,
+            "y": 42
+          },
+          "hitboxes": [],
+          "hurtboxes": [
+            {
+              "x": 5,
+              "y": 6,
+              "w": 15,
+              "h": 36
+            }
+          ]
+        },
+        {
+          "texture": "atlas.png",
+          "sourceRect": {
+            "x": 111,
+            "y": 304,
+            "w": 36,
+            "h": 56
+          },
+          "duration_ms": 100,
+          "pivot": {
+            "x": 13,
+            "y": 56
+          },
+          "hitboxes": [
+            {
+              "x": 6,
+              "y": 0,
+              "w": 16,
+              "h": 8
+            }
+          ],
+          "hurtboxes": [
+            {
+              "x": 9,
+              "y": 13,
+              "w": 12,
+              "h": 43
+            }
+          ]
+        },
+        {
+          "texture": "atlas.png",
+          "sourceRect": {
+            "x": 198,
+            "y": 306,
+            "w": 45,
+            "h": 54
+          },
+          "duration_ms": 100,
+          "pivot": {
+            "x": 13,
+            "y": 54
+          },
+          "hitboxes": [
+            {
+              "x": 27,
+              "y": 7,
+              "w": 20,
+              "h": 25
+            }
+          ],
+          "hurtboxes": [
+            {
+              "x": 3,
+              "y": 11,
+              "w": 14,
+              "h": 43
+            }
+          ]
+        },
+        {
+          "texture": "atlas.png",
+          "sourceRect": {
+            "x": 283,
+            "y": 327,
+            "w": 45,
+            "h": 33
+          },
+          "duration_ms": 100,
+          "pivot": {
+            "x": 13,
+            "y": 33
+          },
+          "hitboxes": [
+            {
+              "x": 31,
+              "y": 11,
+              "w": 14,
+              "h": 22
+            }
+          ],
+          "hurtboxes": [
+            {
+              "x": 3,
+              "y": 5,
+              "w": 19,
+              "h": 28
+            }
+          ]
+        },
+        {
+          "texture": "atlas.png",
+          "sourceRect": {
+            "x": 365,
+            "y": 332,
+            "w": 41,
+            "h": 28
+          },
+          "duration_ms": 100,
+          "pivot": {
+            "x": 13,
+            "y": 28
+          },
+          "hitboxes": [
+            {
+              "x": 30,
+              "y": 17,
+              "w": 11,
+              "h": 11
+            }
+          ],
+          "hurtboxes": [
+            {
+              "x": 5,
+              "y": 0,
+              "w": 16,
+              "h": 28
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Punch",
+      "frames": [
+        {
+          "texture": "atlas.png",
+          "sourceRect": {
+            "x": 11,
+            "y": 504,
+            "w": 36,
+            "h": 36
+          },
+          "duration_ms": 100,
+          "pivot": {
+            "x": 13,
+            "y": 36
+          },
+          "hitboxes": [],
+          "hurtboxes": [
+            {
+              "x": 11,
+              "y": 0,
+              "w": 13,
+              "h": 36
+            }
+          ]
+        },
+        {
+          "texture": "atlas.png",
+          "sourceRect": {
+            "x": 100,
+            "y": 503,
+            "w": 59,
+            "h": 37
+          },
+          "duration_ms": 100,
+          "pivot": {
+            "x": 13,
+            "y": 37
+          },
+          "hitboxes": [
+            {
+              "x": 34,
+              "y": 2,
+              "w": 25,
+              "h": 17
+            }
+          ],
+          "hurtboxes": [
+            {
+              "x": 13,
+              "y": 0,
+              "w": 19,
+              "h": 37
+            }
+          ]
+        },
+        {
+          "texture": "atlas.png",
+          "sourceRect": {
+            "x": 182,
+            "y": 503,
+            "w": 63,
+            "h": 37
+          },
+          "duration_ms": 100,
+          "pivot": {
+            "x": 13,
+            "y": 37
+          },
+          "hitboxes": [
+            {
+              "x": 38,
+              "y": 0,
+              "w": 25,
+              "h": 20
+            }
+          ],
+          "hurtboxes": [
+            {
+              "x": 17,
+              "y": 0,
+              "w": 16,
+              "h": 37
+            }
+          ]
+        },
+        {
+          "texture": "atlas.png",
+          "sourceRect": {
+            "x": 264,
+            "y": 499,
+            "w": 63,
+            "h": 41
+          },
+          "duration_ms": 100,
+          "pivot": {
+            "x": 13,
+            "y": 41
+          },
+          "hitboxes": [
+            {
+              "x": 47,
+              "y": 4,
+              "w": 16,
+              "h": 20
+            }
+          ],
+          "hurtboxes": [
+            {
+              "x": 17,
+              "y": 4,
+              "w": 15,
+              "h": 37
+            }
+          ]
+        },
+        {
+          "texture": "atlas.png",
+          "sourceRect": {
+            "x": 346,
+            "y": 498,
+            "w": 62,
+            "h": 42
+          },
+          "duration_ms": 100,
+          "pivot": {
+            "x": 13,
+            "y": 42
+          },
+          "hitboxes": [],
+          "hurtboxes": [
+            {
+              "x": 17,
+              "y": 5,
+              "w": 16,
+              "h": 37
+            }
+          ]
+        },
+        {
+          "texture": "atlas.png",
+          "sourceRect": {
+            "x": 428,
+            "y": 503,
+            "w": 45,
+            "h": 37
+          },
+          "duration_ms": 100,
+          "pivot": {
+            "x": 13,
+            "y": 37
+          },
+          "hitboxes": [],
+          "hurtboxes": [
+            {
+              "x": 17,
+              "y": 0,
+              "w": 16,
+              "h": 37
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Idle",
+      "frames": [
+        {
+          "texture": "atlas.png",
+          "sourceRect": {
+            "x": 29,
+            "y": 436,
+            "w": 23,
+            "h": 44
+          },
+          "duration_ms": 100,
+          "pivot": {
+            "x": 11,
+            "y": 44
+          },
+          "hitboxes": [],
+          "hurtboxes": [
+            {
+              "x": 3,
+              "y": 0,
+              "w": 16,
+              "h": 44
+            }
+          ]
+        },
+        {
+          "texture": "atlas.png",
+          "sourceRect": {
+            "x": 111,
+            "y": 437,
+            "w": 23,
+            "h": 43
+          },
+          "duration_ms": 100,
+          "pivot": {
+            "x": 11,
+            "y": 43
+          },
+          "hitboxes": [],
+          "hurtboxes": [
+            {
+              "x": 3,
+              "y": 0,
+              "w": 17,
+              "h": 43
+            }
+          ]
+        },
+        {
+          "texture": "atlas.png",
+          "sourceRect": {
+            "x": 193,
+            "y": 440,
+            "w": 23,
+            "h": 40
+          },
+          "duration_ms": 100,
+          "pivot": {
+            "x": 11,
+            "y": 40
+          },
+          "hitboxes": [],
+          "hurtboxes": [
+            {
+              "x": 3,
+              "y": 0,
+              "w": 16,
+              "h": 40
+            }
+          ]
+        },
+        {
+          "texture": "atlas.png",
+          "sourceRect": {
+            "x": 275,
+            "y": 440,
+            "w": 23,
+            "h": 40
+          },
+          "duration_ms": 100,
+          "pivot": {
+            "x": 11,
+            "y": 40
+          },
+          "hitboxes": [],
+          "hurtboxes": [
+            {
+              "x": 2,
+              "y": 0,
+              "w": 17,
+              "h": 40
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jump",
+      "frames": [
+        {
+          "texture": "atlas.png",
+          "sourceRect": {
+            "x": 25,
+            "y": 16,
+            "w": 29,
+            "h": 44
+          },
+          "duration_ms": 100,
+          "pivot": {
+            "x": 16,
+            "y": 31
+          },
+          "hitboxes": [],
+          "hurtboxes": [
+            {
+              "x": 9,
+              "y": 0,
+              "w": 14,
+              "h": 31
+            }
+          ]
+        },
+        {
+          "texture": "atlas.png",
+          "sourceRect": {
+            "x": 107,
+            "y": 16,
+            "w": 29,
+            "h": 44
+          },
+          "duration_ms": 100,
+          "pivot": {
+            "x": 16,
+            "y": 31
+          },
+          "hitboxes": [],
+          "hurtboxes": [
+            {
+              "x": 10,
+              "y": 0,
+              "w": 11,
+              "h": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hurt",
+      "frames": [
+        {
+          "texture": "atlas.png",
+          "sourceRect": {
+            "x": 10,
+            "y": 379,
+            "w": 37,
+            "h": 41
+          },
+          "duration_ms": 100,
+          "pivot": {
+            "x": 18,
+            "y": 41
+          },
+          "hitboxes": [],
+          "hurtboxes": [
+            {
+              "x": 7,
+              "y": 2,
+              "w": 14,
+              "h": 39
+            }
+          ]
+        },
+        {
+          "texture": "atlas.png",
+          "sourceRect": {
+            "x": 92,
+            "y": 379,
+            "w": 37,
+            "h": 41
+          },
+          "duration_ms": 100,
+          "pivot": {
+            "x": 18,
+            "y": 41
+          },
+          "hitboxes": [],
+          "hurtboxes": [
+            {
+              "x": 7,
+              "y": 2,
+              "w": 13,
+              "h": 39
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Flying Kick",
+      "frames": [
+        {
+          "texture": "atlas.png",
+          "sourceRect": {
+            "x": 29,
+            "y": 137,
+            "w": 43,
+            "h": 28
+          },
+          "duration_ms": 100,
+          "pivot": {
+            "x": 12,
+            "y": 25
+          },
+          "hitboxes": [
+            {
+              "x": 30,
+              "y": 13,
+              "w": 13,
+              "h": 15
+            }
+          ],
+          "hurtboxes": [
+            {
+              "x": 5,
+              "y": 0,
+              "w": 14,
+              "h": 25
+            }
+          ]
+        },
+        {
+          "texture": "atlas.png",
+          "sourceRect": {
+            "x": 111,
+            "y": 137,
+            "w": 43,
+            "h": 28
+          },
+          "duration_ms": 100,
+          "pivot": {
+            "x": 12,
+            "y": 25
+          },
+          "hitboxes": [
+            {
+              "x": 30,
+              "y": 14,
+              "w": 13,
+              "h": 14
+            }
+          ],
+          "hurtboxes": [
+            {
+              "x": 5,
+              "y": -1,
+              "w": 15,
+              "h": 26
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fall",
+      "frames": [
+        {
+          "texture": "atlas.png",
+          "sourceRect": {
+            "x": 28,
+            "y": 76,
+            "w": 22,
+            "h": 32
+          },
+          "duration_ms": 100,
+          "pivot": {
+            "x": 11,
+            "y": 32
+          },
+          "hitboxes": [],
+          "hurtboxes": [
+            {
+              "x": 6,
+              "y": 0,
+              "w": 12,
+              "h": 32
+            }
+          ]
+        },
+        {
+          "texture": "atlas.png",
+          "sourceRect": {
+            "x": 110,
+            "y": 76,
+            "w": 22,
+            "h": 32
+          },
+          "duration_ms": 100,
+          "pivot": {
+            "x": 11,
+            "y": 32
+          },
+          "hitboxes": [],
+          "hurtboxes": [
+            {
+              "x": 6,
+              "y": 0,
+              "w": 14,
+              "h": 32
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Crouch",
+      "frames": [
+        {
+          "texture": "atlas.png",
+          "sourceRect": {
+            "x": 22,
+            "y": 211,
+            "w": 32,
+            "h": 29
+          },
+          "duration_ms": 100,
+          "pivot": {
+            "x": 10,
+            "y": 29
+          },
+          "hitboxes": [],
+          "hurtboxes": [
+            {
+              "x": 5,
+              "y": 0,
+              "w": 13,
+              "h": 29
+            }
+          ]
+        },
+        {
+          "texture": "atlas.png",
+          "sourceRect": {
+            "x": 104,
+            "y": 211,
+            "w": 32,
+            "h": 29
+          },
+          "duration_ms": 100,
+          "pivot": {
+            "x": 10,
+            "y": 29
+          },
+          "hitboxes": [],
+          "hurtboxes": [
+            {
+              "x": 4,
+              "y": 0,
+              "w": 16,
+              "h": 29
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
